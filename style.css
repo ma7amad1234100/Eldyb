@@ -1,0 +1,203 @@
+/* Global */
+body{height: 6000px;}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%
+}
+/* Start Header */
+.header {
+    background-image: url('../img/IMG01.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+/* Start Upper Bar */
+.upper-bar .nav-link {
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: bold;
+    padding: 1.5em 1em;
+    -webkit-transition:color 0.5s ease-in-out;
+    -moz-transition:color 0.5s ease-in-out;
+    -o-transition:color 0.5s ease-in-out;
+    transition:color 0.5s ease-in-out;
+}
+
+/* Navbar */
+.header .navbar-light .navbar-brand,.header .navbar-light .navbar-nav {
+    display: inline-flex;
+    color: #fff
+}
+.header .navbar-light .nav-link {
+    color:#fff
+}
+.header .navbar-light .nav-link span {
+    padding-bottom: 5px;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+.header .navbar-light:hover {
+    background-color:#014280;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+.header .navbar-light:hover .nav-link, .header .navbar-light:hover .brand .navbar-brand, .header .navbar-light:hover .icon i {color: #ec1c23}
+
+.header .navbar .brand a {
+    margin-right: 0
+}
+.header .navbar .icon i {
+    color: #fff;
+}
+
+/* Hover Nav-Link */
+.header .hover-nav-link {
+    position: fixed;
+    z-index: 999;
+    text-transform: uppercase;
+    color: #888;
+    background-color: #fff;
+    padding-left: 3em;
+    font-size: .8em;
+    width: 65%
+}
+
+.header .hover-nav-link .row {display:none;}
+
+.header .hover-nav-link h6 {
+    color: #000;
+    font-weight: bold;
+    margin-top:2em;
+    margin-bottom: 2em;
+}
+
+.header .hover-nav-link p {
+    margin-bottom: 0;
+    padding-bottom: 3em
+}
+
+.header .hover-nav-link .row .col-lg:first-child p {
+    border-right: 1px solid #DDD;
+}
+
+.header .hover-nav-link .row .col-lg:last-child p {
+    border-left: 1px solid #DDD;
+    padding-left: 3em
+}
+.header .hover-nav-link .row .col-lg:last-child h6 {padding-left: 3em}
+
+/* Start Search */
+.header .search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.header .search .close {
+    float: none
+}
+.header .search .close p {
+    margin-top: 1em;
+    margin-left: 3em;
+    font-size: 2em;
+    font-weight: 300;
+    display: inline-block
+}
+.header .search .close i {
+    float: right;
+    margin-top: 1em;
+    margin-right: 1em;
+    font-size: 2em
+}
+.header .search div {
+    width: 100%
+}
+.header .search ul {
+    width: 75%;
+    line-height: 3em;
+    margin-top: 10em
+}
+.header .search ul li {
+    display: inline-block;
+    margin-left: 2em;
+    color: #888;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+
+}
+.header .search ul li:first-child,
+.header .search ul li:hover{
+    color: #222;
+    border-bottom: 1px solid #222;
+}
+.header .search .search-field {
+    width: 75%;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #DDD;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+
+}
+.header .search .search-field input {
+    width:95%;
+    border: 0;
+    display: inline-block;
+}
+.header .search .search-field i {
+    color: #DDD
+}
+.header .search .search-field:hover {
+    border-bottom-color: rgba(4,4,4,0.8)
+}
+.header .search .search-field:hover i {
+    color: rgba(4,4,4,0.8)
+}
+
+
+/* header content */
+.header .header-content p {
+    font-size: 4.5em;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.header .header-content .btn {
+    border-radius: 0;
+    background-color: #ec1c23;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    min-width: 320px;
+    line-height: 50px;
+    border-bottom: 3px solid #014280;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+.header .header-content .btn:hover {
+    background-color: #014280;
+    color: #ec1c23
+}
+/* main color 
+014284
+ec1c23
+*/
